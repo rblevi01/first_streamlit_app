@@ -73,5 +73,5 @@ if streamlit.button('Add Fruit to List'):
    
    
 streamlit.write('Thanks for adding ', fruit_adder)
-my_cur.execute("insert into FRUIT_LOAD_LIST Values('jackfruit');")
+# my_cur.execute("insert into FRUIT_LOAD_LIST Values('jackfruit');")
 
