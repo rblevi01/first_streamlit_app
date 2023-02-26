@@ -55,7 +55,7 @@ def get_fruit_load_list():
       return my_cur.fetchall()
    
 if streamlit.button('Get Fruit Load List'):
-  # my_data_rows = my_cur.fetchall()
+   my_data_rows = get_fruit_load_list()
    streamlit.header("The Fruit Load List Contains")
    streamlit.dataframe(my_data_rows)
 
